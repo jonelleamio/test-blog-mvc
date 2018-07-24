@@ -51,5 +51,6 @@ if ($uri == $uriHome) {
     header('Status: 404 Not Found');
     echo '<html><body><h1>My Page Not Found</h1></body></html>';
 }
+/* just trying git with vscode */
 
 ?>
