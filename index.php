@@ -48,7 +48,7 @@ if ($uri == $uriHome) {
     session_destroy();
     login_action('', $uriBlog, $uriLogout, '');
 } else {
-    header('Status: 404 Not Found');
+    header('Status: 404 Not Found aaaaa');
     echo '<html><body><h1>My Page Not Found</h1></body></html>';
 }
 
